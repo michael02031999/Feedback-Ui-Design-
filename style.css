@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;700&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Mulish:wght@200;400;600;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(254, 249, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  height: 290px;
+  width: 375px;
+  background-color: white;
+  box-shadow: 0 0 10px #a9a9a9;
+  text-align: center;
+}
+
+#title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 0 auto;
+
+  width: 65%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#optionsContainer {
+  margin: 0 auto;
+  height: 100px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  gap: 7.5px;
+  margin-bottom: 22.5px;
+}
+
+#Unhappy,
+#Neutral,
+#Satisfied {
+  height: 85px;
+  width: 100px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+#Unhappy,
+#Satisfied {
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+#Neutral {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box:hover {
+  background-color: white;
+  box-shadow: 0px 0px 5px lightgray;
+}
+
+#sendReview {
+  width: 150px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: rgb(47, 45, 43);
+  color: white;
+  border-radius: 5px;
+}
+
+#secondContainer {
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 10px #a9a9a9;
+  height: 225px;
+  width: 400px;
+  display: none;
+}
+
+.fa-heart {
+  margin-top: 25px;
+  color: red;
+  font-size: 30px;
+}
+
+#thankYou,
+#feedback,
+#customerSupport {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#thankYou {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#feedback {
+  margin-bottom: 15px;
+}
+
+#customerSupport {
+  margin: 0 auto;
+
+  width: 85%;
+}
